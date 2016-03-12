@@ -1,0 +1,341 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei";
+	
+}
+
+body{
+
+}
+
+
+/*head*/
+.head{
+	height: 50px;
+	background-color: #212121;
+}
+
+.container{
+	width: 960px;
+	height: 50px;
+	margin: 0 auto;
+	/*background-color: red;*/
+	/*padding-left: -20px;*/
+	/*padding-right: -20px;*/
+	/*background-color: green;*/
+
+}
+
+.container h2{
+	float: left;
+	text-align: center;
+	width: 120px;
+	padding: 10px;
+	height: 50px;
+	color: white;
+	margin-right: 40px;
+
+}
+
+.ul-nav-inline{
+	float: left;
+
+}
+
+.ul-nav-inline li{
+	float: left;
+	list-style: none;
+	margin-right: 40px;
+	overflow: hidden;
+}
+
+.ul-nav-inline li:hover .menu, .ul-nav-inline li:hover span{
+	text-shadow: 1px 0 20px #fff;
+	color: white;
+}
+
+
+.ul-nav-inline li a{
+	display: inline-block;
+	font-size: 16px;
+	padding: 10px;
+	margin: 0px;
+	color: #b5b5b5;
+	width: 90px;
+	text-align: left;
+	text-decoration: none;
+}
+
+.ul-nav-inline span{
+	display: inline;
+	color: #b5b5b5;
+	vertical-align: -3px;
+	margin-left: 4px;
+}
+
+.ul-nav-inline .menu-active{
+	color: white;
+	text-shadow: 1px 0 20px #fff;
+
+}
+
+.ul-nav{
+	position: absolute;
+	left: auto;
+	background-color: #212121;
+	height: 0px;
+	overflow: hidden;
+	transition: height 1s;
+}
+
+.ul-nav li{
+	float: none;
+	margin: 0px;
+}
+
+.ul-nav li a{
+	font-size: 14px;
+	text-decoration: none;
+	text-align: left;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px; 
+}
+
+.ul-nav li a.nav-html{
+	color: #fb4000;
+}
+
+.ul-nav li a.nav-css{
+	color: #16c5ff;
+}
+
+.ul-nav li a.nav-js{
+	color: #b61313;
+}
+
+.ul-nav li a.nav-node{
+	color: #75a741;
+}
+
+
+
+.ul-nav li a.nav-ha-blue{
+	width: 30px;
+	color: #16c5ff;
+}
+
+.ul-nav li a.nav-ha-pink{
+	width: 30px;
+	color: #e43c79;
+}
+
+.ul-nav li a.nav-ha-yellow{
+	width: 30px;
+	color: #ffcb16;
+}
+
+
+.ul-nav li:hover{
+	background-color: black;
+}
+
+.ul-nav li:hover a{
+	text-shadow: 1px 0 20px #fff;
+	color: white;
+}
+
+.ul-nav li:hover a.nav-ha-yellow{
+	color: #ffcb16;
+}
+
+.ul-nav li:hover a.nav-ha-blue{
+	color: #16c5ff;
+}
+
+.ul-nav li:hover a.nav-ha-pink{
+	color: #e43c79;
+}
+
+
+.ul-nav-inline li.nav-article:hover .ul-nav{
+	height: 120px;
+}
+
+.ul-nav-inline li.nav-team:hover .ul-nav{
+	height: 90px;
+}
+
+.search{
+	float: right;
+	margin-top: 15px;
+	margin-right: 20px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	/*background-color: #212121;*/
+
+}
+
+.search input{
+	background: transparent;
+	/*background-color: #212121;*/
+	outline: none;
+	border: none;
+	padding-left: 5px;
+	color: white;
+	line-height: 14px;
+	/*font-size: 12px;*/
+}
+
+
+/*main*/
+.main{
+	float: left;
+	background-color: #f2f2f2;
+	width: 100%;
+	height: auto;
+	padding-top: 20px;
+}
+
+.footer{
+	float: left;
+	width: 100%;
+	height: 20px;
+	/*margin-top: 30px;*/
+	background-color: #f2f2f2;
+}
+
+/*@media (min-width: 768px){
+	.main{
+		min-height: 500px;
+	}
+}
+
+@media (min-width:992px){
+	.main{
+		min-height: 600px;
+	}
+}
+
+@media (min-width: 1200px){
+	.main{
+		min-height: 700px;
+	}
+}*/
+
+.card{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	width: 300px;
+	height: 280px;
+	background-color: white;
+	overflow: hidden;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+
+}
+
+.card-pic{
+	width: 300px;
+	height: 200px;
+	overflow: hidden;
+	vertical-align: middle;
+}
+
+.card-pic img{
+	max-width: 100%;
+	height: auto;
+}
+
+.card-link{
+	float: right;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.card-info h4{
+	font-size: 16px;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+
+.card-info h4:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.card-info p{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.card-info p a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #212121;
+	margin-right: 20px;
+	cursor: none;
+}
+
+.label{
+	color: white;
+	padding: 5px;
+	margin-top: -25px;
+	float: right;
+}
+
+.label:hover{
+	color: white;
+}
+
+.label-primary{
+	background-color: #212121;
+}
+
+.label-html{
+	background-color: #fb4000;
+}
+
+.label-css{
+	background-color: #16c5ff;
+}
+
+.label-node{
+	background-color: #75a741;
+}
+
+.card-content{
+	text-indent: 32px;
+	font-size: 15px;
+	margin-top: 15px;
+	margin-right: 10px;
+	margin-left: 10px;
+	line-height: 25px;
+	text-align: left;
+}
+
+.card-link{
+	color: #212121;
+}
+
+.card-link:hover{
+	color: #212121;
+}
+
+/*hover动画效果*/
+.card-pic{
+	transition: margin-top 1s;
+
+}
+
+.card:hover .card-pic{
+	margin-top: -200px;
+}
+
+
